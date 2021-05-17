@@ -139,7 +139,7 @@ img {
   color: var(--accent-color);
   text-decoration: none;
 }
-.logo-span {
+.logo__span {
   color: #000000;
 }
 .contacts-header {
@@ -524,12 +524,12 @@ img {
 
   background-color: var(--darck-bg-color);
 }
-.footer-logo {
+.footer__logo {
   margin-right: 0;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.logo-span-footer {
+.footer__logo-whitespan {
   color: var(--white-color);
 }
 .address-list {
