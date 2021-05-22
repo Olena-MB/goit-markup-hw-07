@@ -12,16 +12,18 @@
 
   background: transparent;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  @include borders(1px, rgba(255, 255, 255, 0.3), 4px);
+
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+
   color: var(--white-color);
-}
-.subscribe__input:hover,
-.subscribe__input:focus-within {
-  border-color: var(--accent-color);
-  outline: none;
+
+  &:hover,
+  &:focus-within {
+    border-color: var(--accent-color);
+    outline: none;
+  }
 }
 
 .subscribe__label {

@@ -1,23 +1,17 @@
-.logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-right: 93px;
-  display: block;
-
-  font-family: var(--logo-font);
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-  text-decoration: none;
+.header__logo {
+  @extend %logo;
 }
-.logo__span {
+
+.header__logo-span {
   color: #000000;
 }
 .footer__logo {
+  @extend %logo;
+
   margin-right: 0;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.footer__logo-whitespan {
+.footer__logo-span {
   color: var(--white-color);
 }

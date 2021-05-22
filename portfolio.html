@@ -19,8 +19,8 @@
   <body>
     <header class="header">
       <div class="container header-cont">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo__span">Studio</span></a
+        <a href="./index.html" class="header__logo"
+          >Web<span class="header__logo-span">Studio</span></a
         >
         <nav class="nav">
           <ul class="nav__list">
@@ -59,27 +59,28 @@
           <h1 class="portfolio__tittel hidden">Портфолио</h1>
           <ul class="filter-list">
             <li class="portfolio__filter-list filter-list__item">
-              <button type="button" class="button filter-list__button">
+              <button
+                type="button"
+                class="filter-list__button filter-list__button--defolt"
+              >
                 Все
               </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">
+              <button type="button" class="filter-list__button">
                 Веб-сайты
               </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">
+              <button type="button" class="filter-list__button">
                 Приложения
               </button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">
-                Дизайн
-              </button>
+              <button type="button" class="filter-list__button">Дизайн</button>
             </li>
             <li class="filter-list__item">
-              <button type="button" class="button filter-list__button">
+              <button type="button" class="filter-list__button">
                 Маркетинг
               </button>
             </li>
@@ -324,8 +325,8 @@
     <footer class="footer">
       <div class="container footer-cont">
         <div>
-          <a href="./index.html" class="logo footer__logo"
-            >Web<span class="logo__span footer__logo-whitespan">Studio</span></a
+          <a href="./index.html" class="footer__logo"
+            >Web<span class="footer__logo-span">Studio</span></a
           >
           <address class="address">
             <ul class="address__list">
@@ -334,7 +335,7 @@
                   href="https://goo.gl/maps/Q8eix4cUSPxJvjgE8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="address__link office"
+                  class="address__link address__link--office"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
@@ -423,7 +424,7 @@
                 placeholder="E-mail"
               />
 
-              <button type="submit" class="button subscribe__button">
+              <button type="submit" class="subscribe__button">
                 Подписаться
                 <svg class="button__icon button__icon--send">
                   <use href="./images/svg/symbol-defs.svg#icon-send"></use>

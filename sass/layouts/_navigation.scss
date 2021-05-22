@@ -17,26 +17,27 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  &.current::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: var(--accent-color);
+    border-radius: 2px;
+  }
+  &.current {
+    color: var(--accent-color);
+  }
 }
-.nav__link:hover,
-.nav__link:focus {
-  color: var(--accent-color);
-}
-.nav__link.current::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: var(--accent-color);
-  border-radius: 2px;
-}
-.nav__link.current {
-  color: var(--accent-color);
-}
-.nav__item,
-.contacts__item {
+
+.nav__item {
   margin-left: 50px;
 }

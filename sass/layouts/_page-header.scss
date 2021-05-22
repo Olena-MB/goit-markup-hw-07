@@ -1,5 +1,6 @@
 .header {
-  border: 1px solid #ececec;
+  @include borders(1px, #ececec, 0);
+
   border-top: none;
   border-left: none;
   border-right: none;

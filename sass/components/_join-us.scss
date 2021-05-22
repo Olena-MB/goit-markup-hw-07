@@ -14,10 +14,11 @@
 .join-us__link {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.join-us__link:hover,
-.sjoin-us__link:focus {
-  background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 .join-us__icon {
   fill: var(--white-color);
