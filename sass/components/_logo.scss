@@ -3,7 +3,7 @@
 }
 
 .header__logo-span {
-  color: #000000;
+  color: var(--darck-text-color);
 }
 .footer__logo {
   @extend %logo;
@@ -13,5 +13,5 @@
   padding-bottom: 0px;
 }
 .footer__logo-span {
-  color: var(--white-color);
+  color: var(--secondary-text-color);
 }

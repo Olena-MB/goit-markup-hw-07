@@ -1,18 +1,21 @@
 .join-us {
-  margin-left: 70px;
+  margin-left: 76px;
   padding-left: 0;
-  margin-bottom: 20px;
+}
+
+.join-us__label {
+  margin-bottom: 10px;
 
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   font-style: normal;
-  color: var(--white-color);
+  color: var(--secondary-text-color);
 }
 
 .join-us__link {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--join-us-bg-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
@@ -21,7 +24,7 @@
   }
 }
 .join-us__icon {
-  fill: var(--white-color);
+  fill: var(--secondary-text-color);
   width: 20px;
   height: 20px;
 }
